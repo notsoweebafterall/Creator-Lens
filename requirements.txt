@@ -1,0 +1,19 @@
+# Core data & validation
+pydantic>=2.6
+pydantic-settings>=2.2
+pandas>=2.2
+numpy>=1.26
+
+# LLM
+google-genai
+
+# Vector store
+chromadb>=0.5
+sentence-transformers
+
+# API
+fastapi>=0.111
+uvicorn[standard]>=0.30
+
+# Utilities
+python-dotenv>=1.0

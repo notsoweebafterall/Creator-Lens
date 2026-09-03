@@ -1,0 +1,37 @@
+[
+  {
+    "brief": "A fintech brand wants an Instagram awareness campaign in India targeting users aged 18 to 30 with a budget of 500000 INR.",
+    "expected": {
+      "niche": "fintech",
+      "platform": "Instagram",
+      "geography": "India",
+      "target_age_min": 18,
+      "target_age_max": 30,
+      "budget": 500000,
+      "campaign_goal": "awareness"
+    }
+  },
+  {
+    "brief": "We are a fashion brand looking for TikTok creators in India to drive product sales. Our target audience is 25 to 34 and the campaign budget is 200000 INR.",
+    "expected": {
+      "niche": "fashion",
+      "platform": "TikTok",
+      "geography": "India",
+      "target_age_min": 25,
+      "target_age_max": 34,
+      "budget": 200000,
+      "campaign_goal": "sales"
+    }
+  },
+  {
+    "brief": "A health and wellness company wants an Instagram campaign in India focused on awareness among people aged 18 to 24.",
+    "expected": {
+      "niche": "health and wellness",
+      "platform": "Instagram",
+      "geography": "India",
+      "target_age_min": 18,
+      "target_age_max": 24,
+      "campaign_goal": "awareness"
+    }
+  }
+]

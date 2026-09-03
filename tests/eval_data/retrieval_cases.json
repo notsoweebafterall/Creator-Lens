@@ -1,0 +1,18 @@
+[
+  {
+    "query": "What financial claims should creators avoid in a fintech campaign?",
+    "expected_source": "fintech_guidelines.txt"
+  },
+  {
+    "query": "What types of content are prohibited for brand safety?",
+    "expected_source": "prohibited_categories.txt"
+  },
+  {
+    "query": "What positive behaviors indicate a brand-safe creator?",
+    "expected_source": "green_flags.txt"
+  },
+  {
+    "query": "What general behaviors should creators avoid to remain brand safe?",
+    "expected_source": "general_brand_safety.txt"
+  }
+]
