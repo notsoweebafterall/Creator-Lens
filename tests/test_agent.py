@@ -5,6 +5,7 @@ from src.models import CampaignRequirements, CreatorInvestigation
 def test_investigate_campaign():
     campaign = CampaignRequirements(
         niche="fintech",
+        budget_inr=300000,
         target_age_min=18,
         target_age_max=30,
         geography="India",
@@ -16,11 +17,17 @@ def test_investigate_campaign():
 
     assert len(results) > 0
 
+    print("\n--- TEST: CANDIDATE TOOL CALL SEQUENCES ---")
+    tool_sequences = []
     for creator in results:
         assert isinstance(creator, CreatorInvestigation)
         assert creator.creator_id
         assert creator.creator_name
         assert creator.evidence
+
+        seq = [ev.source for ev in creator.evidence]
+        tool_sequences.append(tuple(seq))
+        print(f"Candidate {creator.creator_id} ({creator.creator_name}): {seq}")
 
         for evidence in creator.evidence:
             assert evidence.type in {
@@ -29,4 +36,4 @@ def test_investigate_campaign():
                 "model_judgment",
             }
             assert evidence.claim
-            assert evidence.source
+            assert evidence.source

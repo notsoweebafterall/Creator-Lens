@@ -1,13 +1,15 @@
 from pathlib import Path
 
 import chromadb
-from google import genai
+from sentence_transformers import SentenceTransformer
 
 from src.config import settings
 
-
 COLLECTION_NAME = "brand_safety_guidelines"
-EMBEDDING_MODEL = "gemini-embedding-2"
+
+# Load local sentence-transformer model once at module level.
+# WHY: Keeps RAG pipeline fully free with no API cost or billing dependency, independent of Gemini API quota.
+_embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 def get_client():
@@ -24,18 +26,19 @@ def get_collection():
 
 
 def embed_text(text: str) -> list[float]:
-    client = genai.Client(api_key=settings.gemini_api_key)
-
-    response = client.models.embed_content(
-        model=EMBEDDING_MODEL,
-        contents=text,
-    )
-
-    return response.embeddings[0].values
+    """
+    Generates embeddings locally using sentence-transformers (all-MiniLM-L6-v2).
+    """
+    return _embedding_model.encode(text).tolist()
 
 
 def ingest_guidelines() -> None:
-    collection = get_collection()
+    client = get_client()
+    try:
+        client.delete_collection(COLLECTION_NAME)
+    except Exception:
+        pass
+    collection = client.create_collection(name=COLLECTION_NAME)
 
     guideline_dir = settings.guidelines_dir_path
     files = sorted(guideline_dir.glob("*.txt"))

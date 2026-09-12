@@ -1,16 +1,21 @@
+import json
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class CampaignRequirements(BaseModel):
-    niche: str
-    budget: float | None = None
+    niche: str | None = None
+    budget_inr: float | None = None
     target_age_min: int | None = None
     target_age_max: int | None = None
     geography: str | None = None
     platform: str | None = None
     campaign_goal: str | None = None
+    needs_clarification: bool = False
+    clarification_reason: str | None = None
+    min_creators: int = 3
+    model_used: str = ""
 
 
 class Creator(BaseModel):
@@ -25,7 +30,27 @@ class Creator(BaseModel):
     audience_age_18_24: float
     audience_age_25_34: float
     geography: str
-    brand_safety_status: str
+    estimated_price_inr: int
+    content_summary: str
+    previous_brand_categories: list[str]
+
+    @field_validator("previous_brand_categories", mode="before")
+    @classmethod
+    def parse_brand_categories(cls, v):
+        if isinstance(v, str):
+            try:
+                return json.loads(v)
+            except Exception:
+                return [v]
+        return v or []
+
+
+class SafetyVerdict(BaseModel):
+    creator_id: str
+    risk_level: Literal["low", "medium", "high"]
+    reasoning: str
+    grounded_in: list[str]
+    model_used: str = ""
 
 
 class Evidence(BaseModel):
@@ -38,6 +63,7 @@ class CreatorInvestigation(BaseModel):
     creator_id: str
     creator_name: str
     evidence: list[Evidence] = Field(default_factory=list)
+    tool_sequence: list[str] = Field(default_factory=list)
 
 
 class CreatorRecommendation(BaseModel):
@@ -46,8 +72,10 @@ class CreatorRecommendation(BaseModel):
     score: float
     evidence: list[Evidence] = Field(default_factory=list)
     recommendation: str
+    model_used: str = ""
 
 
 class CampaignResult(BaseModel):
     campaign: CampaignRequirements
     recommendations: list[CreatorRecommendation]
+    model_used: str = ""

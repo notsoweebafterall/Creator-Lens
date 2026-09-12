@@ -1,3 +1,4 @@
+import json
 import random
 import sqlite3
 from pathlib import Path
@@ -35,13 +36,32 @@ GEOGRAPHIES = [
     "Pune",
 ]
 
-SAFETY_STATUSES = [
-    "clean",
-    "clean",
-    "clean",
-    "clean",
-    "review",
-    "unsafe",
+CONTENT_SUMMARIES = {
+    "fintech": "Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.",
+    "finance": "Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.",
+    "technology": "Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.",
+    "fitness": "Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.",
+    "beauty": "Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.",
+    "gaming": "Streams live gameplay, esports commentary, and gaming setup hardware reviews.",
+    "fashion": "Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.",
+    "food": "Shares quick home recipes, restaurant reviews, and street food exploration videos.",
+    "travel": "Documents budget travel itineraries, hotel reviews, and cultural destination guides.",
+    "education": "Explains complex academic topics, exam preparation strategies, and career development advice.",
+}
+
+CLEAN_BRAND_CATS = [
+    ["banking apps", "mutual funds"],
+    ["edtech", "productivity tools"],
+    ["sportswear", "health supplements"],
+    ["e-commerce", "lifestyle accessories"],
+    ["consumer electronics", "cloud storage"],
+]
+
+RISKY_BRAND_CATS = [
+    ["crypto trading", "offshore betting"],
+    ["gambling", "fantasy sports"],
+    ["unregulated loans", "binary options"],
+    ["crypto tokens", "payday loans"],
 ]
 
 
@@ -86,6 +106,17 @@ def make_creator(
         2,
     )
 
+    niche_mult = 2.0 if niche in ["fintech", "finance"] else (1.5 if niche == "technology" else 1.0)
+    estimated_price_inr = int(followers / 1000 * 100 * niche_mult)
+
+    # 15% chance of risky brand history, otherwise clean
+    if random.random() < 0.15:
+        brand_cats = random.choice(RISKY_BRAND_CATS)
+    else:
+        brand_cats = random.choice(CLEAN_BRAND_CATS)
+
+    content_summary = CONTENT_SUMMARIES.get(niche, f"Creates content focused on {niche}.")
+
     return {
         "creator_id": f"C{creator_id:03d}",
         "name": f"Creator {creator_id:03d}",
@@ -98,9 +129,9 @@ def make_creator(
         "audience_age_18_24": age_18_24,
         "audience_age_25_34": age_25_34,
         "geography": geography,
-        "brand_safety_status": random.choice(
-            SAFETY_STATUSES
-        ),
+        "estimated_price_inr": estimated_price_inr,
+        "content_summary": content_summary,
+        "previous_brand_categories": json.dumps(brand_cats),
     }
 
 
@@ -123,6 +154,10 @@ def main():
             )
         )
         creator_id += 1
+
+    # Ensure at least a few fintech creators have explicit risky categories
+    creators[0]["previous_brand_categories"] = json.dumps(["crypto trading", "unregulated loans"])
+    creators[1]["previous_brand_categories"] = json.dumps(["gambling", "binary options"])
 
     # -----------------------------------------
     # Guaranteed finance candidates
@@ -197,4 +232,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()

@@ -3,7 +3,6 @@ import chromadb
 from src.config import settings
 from src.rag.ingest import (
     COLLECTION_NAME,
-    EMBEDDING_MODEL,
     embed_text,
 )
 

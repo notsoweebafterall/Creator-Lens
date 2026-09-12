@@ -1,151 +1,151 @@
-creator_id,name,platform,niche,followers,avg_views,avg_likes,avg_comments,audience_age_18_24,audience_age_25_34,geography,brand_safety_status
-C001,Creator 001,Instagram,fintech,1350975,292889,21061,1876,0.23,0.21,India,unsafe
-C002,Creator 002,Instagram,fintech,1881036,897667,55057,2308,0.2,0.28,India,review
-C003,Creator 003,Instagram,fintech,65649,31954,2240,467,0.38,0.34,India,clean
-C004,Creator 004,Instagram,fintech,1707498,1146721,83844,5588,0.38,0.27,India,clean
-C005,Creator 005,Instagram,fintech,1611163,567059,15022,2121,0.62,0.26,India,clean
-C006,Creator 006,Instagram,fintech,1540358,655660,18842,12196,0.19,0.31,India,unsafe
-C007,Creator 007,Instagram,fintech,1307129,890509,40352,4863,0.19,0.51,India,clean
-C008,Creator 008,Instagram,fintech,177335,117606,9485,1039,0.4,0.48,India,clean
-C009,Creator 009,Instagram,fintech,786325,285563,19107,4178,0.53,0.17,India,unsafe
-C010,Creator 010,Instagram,fintech,368903,173562,6445,1791,0.3,0.61,India,unsafe
-C011,Creator 011,Instagram,finance,1178008,331926,14173,5254,0.18,0.6,India,clean
-C012,Creator 012,Instagram,finance,851303,264452,9194,5017,0.63,0.2,India,unsafe
-C013,Creator 013,Instagram,finance,1056963,409445,34400,4200,0.3,0.27,India,review
-C014,Creator 014,Instagram,finance,1140317,350812,21371,6371,0.37,0.24,India,clean
-C015,Creator 015,Instagram,finance,1078554,481153,35078,8420,0.23,0.24,India,unsafe
-C016,Creator 016,Instagram,finance,895333,454690,21340,5786,0.41,0.25,India,review
-C017,Creator 017,Instagram,finance,1815185,1298689,87817,5275,0.64,0.27,India,unsafe
-C018,Creator 018,Instagram,finance,723399,156927,7914,1595,0.67,0.26,India,clean
-C019,Creator 019,Instagram,finance,1059805,643489,35737,2519,0.49,0.41,India,review
-C020,Creator 020,Instagram,finance,1287103,346676,16007,1701,0.67,0.27,India,clean
-C021,Creator 021,YouTube,education,50845,11039,501,217,0.59,0.2,Bangalore,clean
-C022,Creator 022,Instagram,education,1544921,682228,16949,10704,0.57,0.18,India,clean
-C023,Creator 023,Instagram,travel,1116612,751993,37313,4370,0.45,0.41,Delhi,clean
-C024,Creator 024,YouTube,beauty,1372893,513533,42609,5200,0.29,0.18,Pune,clean
-C025,Creator 025,Instagram,education,471829,72810,5063,222,0.19,0.17,Hyderabad,clean
-C026,Creator 026,Instagram,finance,1412948,623461,36002,9364,0.64,0.24,Delhi,clean
-C027,Creator 027,YouTube,food,207815,43258,2170,416,0.41,0.43,Mumbai,unsafe
-C028,Creator 028,Instagram,finance,1537174,543516,43653,3519,0.25,0.4,Bangalore,clean
-C029,Creator 029,YouTube,technology,533882,360205,9104,5959,0.62,0.17,Bangalore,unsafe
-C030,Creator 030,Instagram,travel,1952732,1175816,42972,10953,0.41,0.49,India,clean
-C031,Creator 031,YouTube,technology,828773,256191,19184,2610,0.38,0.55,India,review
-C032,Creator 032,Instagram,food,632241,177419,4274,2704,0.18,0.32,Mumbai,clean
-C033,Creator 033,YouTube,education,1938094,1282304,39777,24740,0.19,0.25,Hyderabad,review
-C034,Creator 034,Instagram,finance,261420,186904,11191,2321,0.17,0.2,Bangalore,unsafe
-C035,Creator 035,YouTube,education,438362,241903,10158,1640,0.22,0.51,Delhi,clean
-C036,Creator 036,Instagram,gaming,971094,507586,30155,1928,0.45,0.33,India,clean
-C037,Creator 037,Instagram,gaming,784954,251964,12767,2967,0.32,0.62,Mumbai,unsafe
-C038,Creator 038,Instagram,travel,1723591,832083,70912,3215,0.63,0.19,Pune,clean
-C039,Creator 039,Instagram,travel,600885,308192,21645,1745,0.5,0.23,Delhi,clean
-C040,Creator 040,Instagram,beauty,1340190,541631,21322,1117,0.57,0.3,India,clean
-C041,Creator 041,YouTube,technology,1489891,605807,12526,2032,0.64,0.29,Hyderabad,review
-C042,Creator 042,YouTube,fintech,1168729,279158,8073,2107,0.64,0.28,Hyderabad,clean
-C043,Creator 043,Instagram,gaming,533301,293400,13131,3543,0.63,0.32,Pune,unsafe
-C044,Creator 044,Instagram,technology,1687484,1074021,87746,2627,0.56,0.23,Mumbai,clean
-C045,Creator 045,YouTube,fitness,1661244,948183,44354,2557,0.41,0.23,Mumbai,clean
-C046,Creator 046,YouTube,gaming,477504,78405,2628,620,0.63,0.31,Mumbai,clean
-C047,Creator 047,YouTube,gaming,1779285,839341,71970,3421,0.68,0.17,Pune,clean
-C048,Creator 048,Instagram,fintech,921346,329300,24713,3245,0.69,0.16,Hyderabad,review
-C049,Creator 049,YouTube,fitness,1496430,615982,34737,10174,0.53,0.4,India,unsafe
-C050,Creator 050,YouTube,fitness,156745,112750,9522,1490,0.51,0.19,Bangalore,clean
-C051,Creator 051,YouTube,travel,866462,299544,20610,3588,0.26,0.51,Pune,clean
-C052,Creator 052,YouTube,technology,1159107,753692,31105,4358,0.58,0.28,Bangalore,clean
-C053,Creator 053,YouTube,food,1426893,396991,21089,7233,0.59,0.19,Bangalore,clean
-C054,Creator 054,YouTube,beauty,1726358,1245049,45370,9446,0.59,0.18,India,clean
-C055,Creator 055,YouTube,fitness,1792029,1095097,56812,19657,0.47,0.39,Hyderabad,clean
-C056,Creator 056,YouTube,food,319479,173679,3540,2695,0.57,0.17,Mumbai,clean
-C057,Creator 057,Instagram,fitness,1096236,469989,27738,8701,0.22,0.22,Pune,clean
-C058,Creator 058,YouTube,travel,1294825,827398,68211,8010,0.65,0.22,Bangalore,clean
-C059,Creator 059,YouTube,food,1586590,473349,30595,7471,0.44,0.38,Delhi,clean
-C060,Creator 060,Instagram,food,609215,177096,7705,3200,0.19,0.23,Pune,clean
-C061,Creator 061,Instagram,technology,880041,347228,20133,3293,0.26,0.38,India,review
-C062,Creator 062,YouTube,fintech,22364,16004,654,144,0.64,0.28,Bangalore,review
-C063,Creator 063,Instagram,travel,470160,147517,7965,1327,0.52,0.37,Bangalore,unsafe
-C064,Creator 064,YouTube,technology,1314967,618658,51648,7828,0.51,0.17,Mumbai,clean
-C065,Creator 065,YouTube,technology,115454,35339,1516,359,0.34,0.55,Mumbai,clean
-C066,Creator 066,YouTube,fashion,996304,161032,9301,3220,0.34,0.45,India,unsafe
-C067,Creator 067,Instagram,fintech,428089,279772,17763,1760,0.41,0.19,Mumbai,clean
-C068,Creator 068,YouTube,food,361879,185837,16253,2774,0.58,0.19,Delhi,clean
-C069,Creator 069,Instagram,finance,1217533,677445,58986,6191,0.54,0.17,Delhi,unsafe
-C070,Creator 070,Instagram,fitness,1630009,539450,36627,8900,0.59,0.27,Pune,clean
-C071,Creator 071,YouTube,gaming,787143,150638,9840,335,0.38,0.36,Pune,clean
-C072,Creator 072,YouTube,gaming,330845,136073,9710,2636,0.3,0.55,Pune,review
-C073,Creator 073,YouTube,food,1741690,1025186,39764,17767,0.61,0.17,Bangalore,clean
-C074,Creator 074,YouTube,fitness,1289958,710654,30947,7744,0.33,0.38,Hyderabad,clean
-C075,Creator 075,YouTube,beauty,1856164,942361,76903,11312,0.43,0.22,Delhi,clean
-C076,Creator 076,YouTube,fashion,1599986,470706,25101,6972,0.4,0.16,Hyderabad,clean
-C077,Creator 077,YouTube,fitness,520247,173618,10540,1826,0.44,0.3,Pune,unsafe
-C078,Creator 078,YouTube,travel,1483993,626611,25981,3853,0.55,0.23,Delhi,unsafe
-C079,Creator 079,Instagram,travel,463791,275103,10826,3469,0.57,0.29,Mumbai,clean
-C080,Creator 080,YouTube,fitness,766822,197583,4147,2294,0.3,0.64,Mumbai,review
-C081,Creator 081,Instagram,beauty,1831295,1101844,29949,2446,0.31,0.38,Pune,clean
-C082,Creator 082,Instagram,technology,1983553,1323096,37028,4202,0.42,0.37,Delhi,unsafe
-C083,Creator 083,Instagram,fintech,1711088,834504,34438,16598,0.22,0.57,Mumbai,review
-C084,Creator 084,Instagram,education,807710,339487,17310,5935,0.69,0.18,Hyderabad,review
-C085,Creator 085,Instagram,fintech,1321800,365629,24215,1764,0.25,0.19,Mumbai,clean
-C086,Creator 086,YouTube,fashion,1255312,542228,12083,3896,0.31,0.57,Pune,clean
-C087,Creator 087,YouTube,fitness,1246878,681680,58186,6579,0.45,0.38,Pune,clean
-C088,Creator 088,Instagram,technology,357965,223934,13806,3770,0.66,0.21,India,clean
-C089,Creator 089,YouTube,beauty,1059566,502222,25434,6410,0.64,0.27,Delhi,review
-C090,Creator 090,Instagram,beauty,490089,356366,27980,4402,0.67,0.28,India,unsafe
-C091,Creator 091,Instagram,beauty,996711,459860,23432,3222,0.7,0.19,Mumbai,clean
-C092,Creator 092,YouTube,finance,866368,303215,20287,5287,0.33,0.48,Delhi,clean
-C093,Creator 093,Instagram,fashion,194674,65938,2810,1283,0.37,0.37,Bangalore,clean
-C094,Creator 094,YouTube,travel,123674,32470,1471,507,0.49,0.39,Bangalore,clean
-C095,Creator 095,Instagram,beauty,928796,630195,33986,1587,0.5,0.39,Delhi,unsafe
-C096,Creator 096,YouTube,technology,38677,18617,493,369,0.65,0.22,Hyderabad,clean
-C097,Creator 097,YouTube,technology,622078,283246,11086,4822,0.69,0.18,Pune,review
-C098,Creator 098,YouTube,technology,1943297,990355,71543,4414,0.19,0.57,Mumbai,clean
-C099,Creator 099,YouTube,gaming,603156,353226,27771,4393,0.51,0.4,India,clean
-C100,Creator 100,YouTube,travel,707177,340258,19748,3469,0.33,0.24,Delhi,unsafe
-C101,Creator 101,YouTube,fitness,1805189,1110780,25609,17111,0.54,0.36,Mumbai,clean
-C102,Creator 102,YouTube,technology,274757,124018,7603,2189,0.63,0.22,India,review
-C103,Creator 103,Instagram,food,312315,123672,8141,590,0.41,0.53,Pune,clean
-C104,Creator 104,YouTube,education,178433,117954,9396,2060,0.36,0.29,Pune,unsafe
-C105,Creator 105,Instagram,food,153488,44643,3031,320,0.28,0.2,Hyderabad,clean
-C106,Creator 106,YouTube,finance,1465425,483120,10641,3787,0.18,0.35,Mumbai,clean
-C107,Creator 107,Instagram,technology,874135,427938,32299,2165,0.19,0.63,Hyderabad,review
-C108,Creator 108,YouTube,fitness,310139,89727,5801,921,0.52,0.4,Hyderabad,clean
-C109,Creator 109,Instagram,beauty,936374,671512,59855,4958,0.68,0.23,India,clean
-C110,Creator 110,Instagram,beauty,1799574,791677,28978,9733,0.47,0.48,Bangalore,clean
-C111,Creator 111,YouTube,fintech,26982,13209,898,203,0.18,0.48,Delhi,clean
-C112,Creator 112,Instagram,beauty,1691773,611394,39473,8055,0.52,0.35,Hyderabad,unsafe
-C113,Creator 113,Instagram,technology,1365474,237119,17831,616,0.35,0.21,Pune,clean
-C114,Creator 114,YouTube,gaming,431097,98848,5709,1926,0.44,0.48,Mumbai,clean
-C115,Creator 115,YouTube,beauty,1575648,1059210,80813,11047,0.19,0.56,Delhi,clean
-C116,Creator 116,YouTube,fashion,1668180,645159,24846,2725,0.35,0.49,India,clean
-C117,Creator 117,YouTube,education,1981935,739032,49691,7749,0.49,0.44,Pune,clean
-C118,Creator 118,Instagram,education,142575,75741,3976,1107,0.51,0.18,Pune,clean
-C119,Creator 119,YouTube,fintech,253522,52812,4336,234,0.4,0.42,Bangalore,unsafe
-C120,Creator 120,YouTube,travel,1566650,917993,75256,12657,0.61,0.27,Hyderabad,clean
-C121,Creator 121,YouTube,fintech,939841,391742,14309,3340,0.69,0.19,Mumbai,unsafe
-C122,Creator 122,Instagram,gaming,588565,155313,4434,2681,0.4,0.42,Bangalore,unsafe
-C123,Creator 123,Instagram,education,1660027,581184,51851,9395,0.26,0.6,India,review
-C124,Creator 124,Instagram,fitness,699039,429644,32311,5468,0.3,0.64,Mumbai,clean
-C125,Creator 125,YouTube,travel,240532,131483,2866,298,0.58,0.2,Mumbai,clean
-C126,Creator 126,Instagram,fintech,119888,27101,1340,109,0.18,0.4,Delhi,clean
-C127,Creator 127,Instagram,travel,1066626,301780,19029,4553,0.65,0.25,Bangalore,clean
-C128,Creator 128,Instagram,food,1014497,667923,33288,2633,0.54,0.27,India,clean
-C129,Creator 129,Instagram,gaming,274642,86514,5564,1026,0.33,0.62,India,review
-C130,Creator 130,YouTube,beauty,1279672,522259,39439,2120,0.51,0.4,Hyderabad,review
-C131,Creator 131,YouTube,fitness,1872461,537576,23505,5463,0.38,0.19,Bangalore,clean
-C132,Creator 132,YouTube,gaming,330107,185550,9871,675,0.2,0.39,Delhi,unsafe
-C133,Creator 133,Instagram,gaming,135789,68149,4041,540,0.22,0.34,Hyderabad,unsafe
-C134,Creator 134,Instagram,fashion,1269151,428299,11672,4768,0.24,0.42,Delhi,clean
-C135,Creator 135,YouTube,gaming,1609299,510374,18287,4962,0.46,0.41,India,review
-C136,Creator 136,Instagram,education,1958430,1066754,73118,2689,0.3,0.53,Hyderabad,clean
-C137,Creator 137,Instagram,gaming,1834234,432789,28570,1407,0.56,0.38,Mumbai,clean
-C138,Creator 138,Instagram,travel,890452,375937,11661,2860,0.33,0.59,Bangalore,review
-C139,Creator 139,Instagram,finance,340112,204972,4813,710,0.39,0.32,Mumbai,review
-C140,Creator 140,YouTube,food,462080,278618,7792,2713,0.31,0.48,Delhi,clean
-C141,Creator 141,YouTube,travel,472460,182916,11332,391,0.32,0.25,India,clean
-C142,Creator 142,YouTube,beauty,261625,40457,2924,208,0.36,0.46,Delhi,review
-C143,Creator 143,YouTube,travel,842718,562142,12907,1313,0.66,0.27,India,review
-C144,Creator 144,YouTube,fashion,1352474,541823,15204,1287,0.33,0.53,Pune,review
-C145,Creator 145,YouTube,food,925850,607997,22515,7660,0.44,0.29,India,clean
-C146,Creator 146,Instagram,gaming,1643928,412428,22986,1671,0.43,0.49,Delhi,clean
-C147,Creator 147,Instagram,gaming,225596,53661,1814,689,0.57,0.3,Mumbai,clean
-C148,Creator 148,YouTube,food,1603577,798069,54012,14266,0.5,0.45,Hyderabad,clean
-C149,Creator 149,Instagram,gaming,153206,66085,4242,1079,0.48,0.26,Bangalore,clean
-C150,Creator 150,YouTube,beauty,88868,16363,1279,55,0.63,0.3,Bangalore,review
+creator_id,name,platform,niche,followers,avg_views,avg_likes,avg_comments,audience_age_18_24,audience_age_25_34,geography,estimated_price_inr,content_summary,previous_brand_categories
+C001,Creator 001,Instagram,fintech,1350975,292889,21061,1876,0.23,0.21,India,270195,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""crypto trading"", ""unregulated loans""]"
+C002,Creator 002,Instagram,fintech,192323,96987,2155,357,0.28,0.46,India,38464,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""gambling"", ""binary options""]"
+C003,Creator 003,Instagram,fintech,889796,251157,15383,4161,0.15,0.59,India,177959,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""sportswear"", ""health supplements""]"
+C004,Creator 004,Instagram,fintech,592738,144205,12546,1162,0.2,0.2,India,118547,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""consumer electronics"", ""cloud storage""]"
+C005,Creator 005,Instagram,fintech,564740,358201,25461,4173,0.69,0.19,India,112948,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""consumer electronics"", ""cloud storage""]"
+C006,Creator 006,Instagram,fintech,1866926,1245284,75233,18283,0.18,0.28,India,373385,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""banking apps"", ""mutual funds""]"
+C007,Creator 007,Instagram,fintech,1803731,522494,14143,3659,0.5,0.26,India,360746,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""edtech"", ""productivity tools""]"
+C008,Creator 008,Instagram,fintech,1415459,439056,37568,5999,0.49,0.2,India,283091,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""edtech"", ""productivity tools""]"
+C009,Creator 009,Instagram,fintech,979429,369904,33020,5001,0.46,0.38,India,195885,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""banking apps"", ""mutual funds""]"
+C010,Creator 010,Instagram,fintech,490348,315333,24076,2907,0.19,0.65,India,98069,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""sportswear"", ""health supplements""]"
+C011,Creator 011,Instagram,finance,455910,247679,11812,4572,0.4,0.26,India,91182,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""consumer electronics"", ""cloud storage""]"
+C012,Creator 012,Instagram,finance,1140317,350812,21371,6371,0.37,0.24,India,228063,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""consumer electronics"", ""cloud storage""]"
+C013,Creator 013,Instagram,finance,1044977,213745,4979,849,0.5,0.39,India,208995,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""banking apps"", ""mutual funds""]"
+C014,Creator 014,Instagram,finance,816915,309587,27778,3567,0.68,0.25,India,163383,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""crypto trading"", ""offshore betting""]"
+C015,Creator 015,Instagram,finance,1439650,980218,71126,15521,0.34,0.29,India,287930,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""banking apps"", ""mutual funds""]"
+C016,Creator 016,Instagram,finance,1524336,1029706,39579,11337,0.25,0.65,India,304867,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""sportswear"", ""health supplements""]"
+C017,Creator 017,Instagram,finance,1775108,946788,59295,4498,0.57,0.27,India,355021,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""consumer electronics"", ""cloud storage""]"
+C018,Creator 018,Instagram,finance,1936220,291097,12427,684,0.66,0.27,India,387244,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""sportswear"", ""health supplements""]"
+C019,Creator 019,Instagram,finance,512167,94625,7708,1802,0.2,0.42,India,102433,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""gambling"", ""fantasy sports""]"
+C020,Creator 020,Instagram,finance,279256,152432,13151,757,0.44,0.37,India,55851,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""consumer electronics"", ""cloud storage""]"
+C021,Creator 021,YouTube,fitness,1418629,765955,38808,8667,0.22,0.27,Bangalore,141862,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""consumer electronics"", ""cloud storage""]"
+C022,Creator 022,Instagram,travel,471829,72810,5063,222,0.19,0.17,Hyderabad,47182,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""consumer electronics"", ""cloud storage""]"
+C023,Creator 023,YouTube,fitness,1027987,286337,8378,5394,0.46,0.31,Pune,102798,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""e-commerce"", ""lifestyle accessories""]"
+C024,Creator 024,Instagram,fitness,1391986,568808,28241,5919,0.55,0.32,India,139198,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""banking apps"", ""mutual funds""]"
+C025,Creator 025,YouTube,fintech,721569,454844,12575,2478,0.44,0.2,Pune,144313,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""e-commerce"", ""lifestyle accessories""]"
+C026,Creator 026,Instagram,fitness,1704545,1136606,66517,3308,0.7,0.23,Bangalore,170454,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""edtech"", ""productivity tools""]"
+C027,Creator 027,YouTube,technology,1019481,283668,13636,866,0.36,0.58,Bangalore,152922,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""e-commerce"", ""lifestyle accessories""]"
+C028,Creator 028,YouTube,beauty,1541980,1152250,67871,17204,0.24,0.31,Pune,154198,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""consumer electronics"", ""cloud storage""]"
+C029,Creator 029,Instagram,travel,667676,123052,7492,1359,0.62,0.18,Pune,66767,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""banking apps"", ""mutual funds""]"
+C030,Creator 030,Instagram,technology,152524,84670,3087,352,0.64,0.19,Hyderabad,22878,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""consumer electronics"", ""cloud storage""]"
+C031,Creator 031,YouTube,finance,1234049,603617,25439,4040,0.52,0.24,Pune,246809,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""edtech"", ""productivity tools""]"
+C032,Creator 032,YouTube,beauty,1958292,1177165,29520,12064,0.7,0.25,Delhi,195829,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""gambling"", ""fantasy sports""]"
+C033,Creator 033,YouTube,travel,1967186,707017,17544,4522,0.31,0.36,Mumbai,196718,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""sportswear"", ""health supplements""]"
+C034,Creator 034,Instagram,education,1723591,832083,70912,3215,0.63,0.19,Pune,172359,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""consumer electronics"", ""cloud storage""]"
+C035,Creator 035,YouTube,technology,1278420,353326,15546,5079,0.62,0.24,Delhi,191763,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""banking apps"", ""mutual funds""]"
+C036,Creator 036,YouTube,finance,102456,15586,1153,209,0.29,0.53,Delhi,20491,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""e-commerce"", ""lifestyle accessories""]"
+C037,Creator 037,Instagram,travel,167797,120315,8226,563,0.17,0.35,India,16779,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""e-commerce"", ""lifestyle accessories""]"
+C038,Creator 038,Instagram,technology,774729,534089,40445,9342,0.64,0.18,Delhi,116209,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""banking apps"", ""mutual funds""]"
+C039,Creator 039,YouTube,gaming,1581768,383945,32670,6743,0.69,0.24,Hyderabad,158176,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""banking apps"", ""mutual funds""]"
+C040,Creator 040,YouTube,technology,1692409,934115,66746,6040,0.24,0.54,Bangalore,253861,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""banking apps"", ""mutual funds""]"
+C041,Creator 041,Instagram,food,1722506,1207599,53709,20251,0.63,0.19,Mumbai,172250,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""e-commerce"", ""lifestyle accessories""]"
+C042,Creator 042,YouTube,gaming,1631783,518050,33623,4763,0.69,0.21,India,163178,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""banking apps"", ""mutual funds""]"
+C043,Creator 043,Instagram,beauty,566723,98017,6053,805,0.58,0.25,Hyderabad,56672,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""banking apps"", ""mutual funds""]"
+C044,Creator 044,Instagram,fashion,103085,59301,1193,1106,0.45,0.4,Delhi,10308,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""edtech"", ""productivity tools""]"
+C045,Creator 045,YouTube,gaming,1999934,1097049,47298,8392,0.62,0.28,India,199993,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""sportswear"", ""health supplements""]"
+C046,Creator 046,YouTube,fashion,1472152,481972,13933,4611,0.67,0.24,Bangalore,147215,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""consumer electronics"", ""cloud storage""]"
+C047,Creator 047,YouTube,education,1159107,753692,31105,4358,0.58,0.28,Bangalore,115910,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""e-commerce"", ""lifestyle accessories""]"
+C048,Creator 048,Instagram,food,1002343,627708,54728,9570,0.51,0.23,Hyderabad,100234,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""consumer electronics"", ""cloud storage""]"
+C049,Creator 049,Instagram,gaming,1420954,477798,36532,2222,0.18,0.69,Mumbai,142095,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""banking apps"", ""mutual funds""]"
+C050,Creator 050,YouTube,food,1217269,324598,22314,3537,0.28,0.49,Pune,121726,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""crypto trading"", ""offshore betting""]"
+C051,Creator 051,Instagram,fashion,1696340,1229472,69166,3570,0.29,0.58,Mumbai,169634,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""e-commerce"", ""lifestyle accessories""]"
+C052,Creator 052,YouTube,travel,1294825,827398,68211,8010,0.65,0.22,Bangalore,129482,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""e-commerce"", ""lifestyle accessories""]"
+C053,Creator 053,YouTube,food,1771320,943399,69440,10739,0.49,0.24,Mumbai,177132,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""unregulated loans"", ""binary options""]"
+C054,Creator 054,YouTube,fitness,680479,466683,11965,2200,0.36,0.22,Delhi,68047,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""e-commerce"", ""lifestyle accessories""]"
+C055,Creator 055,YouTube,fashion,987114,394317,13595,3770,0.65,0.24,Hyderabad,98711,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""consumer electronics"", ""cloud storage""]"
+C056,Creator 056,YouTube,fashion,1987072,717442,52189,12456,0.67,0.2,India,198707,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""consumer electronics"", ""cloud storage""]"
+C057,Creator 057,Instagram,education,470160,147517,7965,1327,0.52,0.37,Bangalore,47016,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""e-commerce"", ""lifestyle accessories""]"
+C058,Creator 058,Instagram,technology,1251289,611423,13388,8296,0.22,0.4,Bangalore,187693,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""crypto tokens"", ""payday loans""]"
+C059,Creator 059,Instagram,gaming,695445,245144,19997,1718,0.67,0.2,Bangalore,69544,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""e-commerce"", ""lifestyle accessories""]"
+C060,Creator 060,Instagram,fintech,480227,259364,19370,3561,0.56,0.38,Delhi,96045,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""banking apps"", ""mutual funds""]"
+C061,Creator 061,Instagram,education,274704,119259,3340,2273,0.41,0.25,Mumbai,27470,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""consumer electronics"", ""cloud storage""]"
+C062,Creator 062,Instagram,education,662295,142300,3101,1083,0.52,0.42,Mumbai,66229,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""edtech"", ""productivity tools""]"
+C063,Creator 063,Instagram,finance,1472119,903128,71817,11566,0.22,0.69,India,294423,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""sportswear"", ""health supplements""]"
+C064,Creator 064,YouTube,travel,787143,150638,9840,335,0.38,0.36,Pune,78714,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""sportswear"", ""health supplements""]"
+C065,Creator 065,Instagram,food,379385,223942,19613,1536,0.59,0.26,Bangalore,37938,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""e-commerce"", ""lifestyle accessories""]"
+C066,Creator 066,YouTube,education,1796171,533996,45615,3749,0.4,0.45,Delhi,179617,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""e-commerce"", ""lifestyle accessories""]"
+C067,Creator 067,Instagram,gaming,1794577,619144,33513,5192,0.29,0.29,Bangalore,179457,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""sportswear"", ""health supplements""]"
+C068,Creator 068,Instagram,travel,1998231,528799,19509,4926,0.46,0.23,Hyderabad,199823,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""e-commerce"", ""lifestyle accessories""]"
+C069,Creator 069,Instagram,food,627056,177430,12140,1332,0.47,0.31,India,62705,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""e-commerce"", ""lifestyle accessories""]"
+C070,Creator 070,YouTube,travel,1483993,626611,25981,3853,0.55,0.23,Delhi,148399,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""edtech"", ""productivity tools""]"
+C071,Creator 071,Instagram,fitness,1025438,323935,19847,5080,0.48,0.46,Pune,102543,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""sportswear"", ""health supplements""]"
+C072,Creator 072,YouTube,fitness,643901,102051,5856,707,0.69,0.21,Mumbai,64390,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""edtech"", ""productivity tools""]"
+C073,Creator 073,Instagram,food,1213899,389180,20825,3165,0.68,0.18,India,121389,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""banking apps"", ""mutual funds""]"
+C074,Creator 074,YouTube,finance,165361,82054,5583,388,0.6,0.34,Bangalore,33072,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""gambling"", ""fantasy sports""]"
+C075,Creator 075,YouTube,finance,1260168,786904,28169,8975,0.4,0.33,Hyderabad,252033,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""e-commerce"", ""lifestyle accessories""]"
+C076,Creator 076,Instagram,beauty,1562079,327318,24022,4339,0.3,0.19,Hyderabad,156207,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""consumer electronics"", ""cloud storage""]"
+C077,Creator 077,Instagram,finance,866723,364285,22427,2638,0.28,0.52,India,173344,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""e-commerce"", ""lifestyle accessories""]"
+C078,Creator 078,Instagram,finance,1662195,1038454,63641,17103,0.26,0.21,Delhi,332439,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""edtech"", ""productivity tools""]"
+C079,Creator 079,Instagram,beauty,135070,33707,1399,521,0.46,0.25,India,13507,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""unregulated loans"", ""binary options""]"
+C080,Creator 080,YouTube,fashion,1142423,509837,13067,1385,0.39,0.28,Hyderabad,114242,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""banking apps"", ""mutual funds""]"
+C081,Creator 081,Instagram,fitness,1732645,540076,12322,8432,0.41,0.4,Pune,173264,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""edtech"", ""productivity tools""]"
+C082,Creator 082,YouTube,education,1717595,764390,20169,6316,0.33,0.46,Pune,171759,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""sportswear"", ""health supplements""]"
+C083,Creator 083,YouTube,fashion,1399538,1003631,77229,11944,0.4,0.28,Delhi,139953,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""e-commerce"", ""lifestyle accessories""]"
+C084,Creator 084,Instagram,travel,1833195,871787,42654,4687,0.35,0.49,Pune,183319,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""banking apps"", ""mutual funds""]"
+C085,Creator 085,YouTube,fitness,284754,201208,10194,2931,0.22,0.69,Hyderabad,28475,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""edtech"", ""productivity tools""]"
+C086,Creator 086,YouTube,technology,38677,18617,493,369,0.65,0.22,Hyderabad,5801,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""gambling"", ""fantasy sports""]"
+C087,Creator 087,YouTube,food,1489355,467739,36685,9188,0.28,0.44,Hyderabad,148935,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""consumer electronics"", ""cloud storage""]"
+C088,Creator 088,Instagram,travel,589332,361617,28860,2935,0.58,0.21,India,58933,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""unregulated loans"", ""binary options""]"
+C089,Creator 089,YouTube,education,946477,447824,19775,5344,0.45,0.31,Mumbai,94647,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""edtech"", ""productivity tools""]"
+C090,Creator 090,YouTube,fitness,1805189,1110780,25609,17111,0.54,0.36,Mumbai,180518,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""edtech"", ""productivity tools""]"
+C091,Creator 091,Instagram,food,1063380,775429,33529,2951,0.61,0.17,Mumbai,106338,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""banking apps"", ""mutual funds""]"
+C092,Creator 092,YouTube,technology,333718,65040,4858,440,0.49,0.27,Pune,50057,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""unregulated loans"", ""binary options""]"
+C093,Creator 093,YouTube,travel,1324493,769835,56319,13628,0.17,0.19,Delhi,132449,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""sportswear"", ""health supplements""]"
+C094,Creator 094,Instagram,fitness,216450,131216,9089,499,0.24,0.31,Bangalore,21645,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""unregulated loans"", ""binary options""]"
+C095,Creator 095,YouTube,fintech,796098,325136,12060,3061,0.52,0.2,Delhi,159219,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""consumer electronics"", ""cloud storage""]"
+C096,Creator 096,Instagram,fashion,1924341,961967,34874,12969,0.4,0.42,Bangalore,192434,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""e-commerce"", ""lifestyle accessories""]"
+C097,Creator 097,Instagram,beauty,936374,671512,59855,4958,0.68,0.23,India,93637,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""sportswear"", ""health supplements""]"
+C098,Creator 098,YouTube,fitness,233668,68306,4100,843,0.7,0.18,Bangalore,23366,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""e-commerce"", ""lifestyle accessories""]"
+C099,Creator 099,Instagram,beauty,1824177,1024238,73875,2952,0.48,0.31,Hyderabad,182417,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""sportswear"", ""health supplements""]"
+C100,Creator 100,YouTube,fitness,1345084,355208,13335,5541,0.57,0.31,Mumbai,134508,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""crypto trading"", ""offshore betting""]"
+C101,Creator 101,YouTube,fintech,79970,39804,2836,144,0.31,0.52,Bangalore,15994,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""edtech"", ""productivity tools""]"
+C102,Creator 102,YouTube,travel,1062339,741610,57944,4913,0.6,0.25,Hyderabad,106233,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""sportswear"", ""health supplements""]"
+C103,Creator 103,YouTube,finance,305188,183872,6581,2606,0.52,0.26,India,61037,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""consumer electronics"", ""cloud storage""]"
+C104,Creator 104,Instagram,gaming,39189,12096,346,104,0.56,0.21,Bangalore,3918,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""sportswear"", ""health supplements""]"
+C105,Creator 105,Instagram,finance,62480,32597,2804,257,0.49,0.35,Bangalore,12496,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""e-commerce"", ""lifestyle accessories""]"
+C106,Creator 106,YouTube,beauty,303133,53717,1214,1070,0.21,0.28,India,30313,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""e-commerce"", ""lifestyle accessories""]"
+C107,Creator 107,YouTube,food,1568477,890723,51495,11198,0.55,0.37,Pune,156847,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""e-commerce"", ""lifestyle accessories""]"
+C108,Creator 108,YouTube,education,78611,44349,1561,443,0.28,0.34,Delhi,7861,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""sportswear"", ""health supplements""]"
+C109,Creator 109,YouTube,travel,844959,266608,23401,5087,0.6,0.17,India,84495,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""consumer electronics"", ""cloud storage""]"
+C110,Creator 110,Instagram,fintech,520800,387106,29067,2204,0.61,0.26,Delhi,104159,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""edtech"", ""productivity tools""]"
+C111,Creator 111,Instagram,gaming,15946,5044,448,99,0.45,0.43,Hyderabad,1594,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""crypto trading"", ""offshore betting""]"
+C112,Creator 112,Instagram,technology,1666717,1038462,63574,2371,0.3,0.21,Delhi,250007,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""banking apps"", ""mutual funds""]"
+C113,Creator 113,YouTube,finance,1641619,602840,37108,6110,0.27,0.48,Bangalore,328323,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""consumer electronics"", ""cloud storage""]"
+C114,Creator 114,YouTube,beauty,75327,14048,751,129,0.53,0.28,Pune,7532,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""banking apps"", ""mutual funds""]"
+C115,Creator 115,YouTube,finance,321078,60815,2387,814,0.45,0.26,Hyderabad,64215,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""consumer electronics"", ""cloud storage""]"
+C116,Creator 116,YouTube,beauty,1279672,522259,39439,2120,0.51,0.4,Hyderabad,127967,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""edtech"", ""productivity tools""]"
+C117,Creator 117,YouTube,fashion,877829,310188,16050,2943,0.2,0.38,Mumbai,87782,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""sportswear"", ""health supplements""]"
+C118,Creator 118,YouTube,technology,201312,130664,3466,488,0.56,0.34,India,30196,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""consumer electronics"", ""cloud storage""]"
+C119,Creator 119,YouTube,travel,266337,105598,8569,2000,0.38,0.53,Pune,26633,"Documents budget travel itineraries, hotel reviews, and cultural destination guides.","[""unregulated loans"", ""binary options""]"
+C120,Creator 120,YouTube,education,227266,112894,3939,1560,0.27,0.21,Delhi,22726,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""sportswear"", ""health supplements""]"
+C121,Creator 121,YouTube,finance,484289,307200,24318,6003,0.6,0.27,Hyderabad,96857,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""banking apps"", ""mutual funds""]"
+C122,Creator 122,YouTube,education,388359,121930,8945,2266,0.34,0.23,India,38835,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""crypto tokens"", ""payday loans""]"
+C123,Creator 123,Instagram,finance,1337857,980764,25914,11326,0.36,0.35,Pune,267571,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""sportswear"", ""health supplements""]"
+C124,Creator 124,Instagram,gaming,336274,82200,5199,1161,0.3,0.48,India,33627,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""e-commerce"", ""lifestyle accessories""]"
+C125,Creator 125,YouTube,fashion,1593230,728755,32183,2912,0.52,0.32,Mumbai,159323,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""sportswear"", ""health supplements""]"
+C126,Creator 126,Instagram,fintech,1266875,231672,7948,4405,0.57,0.33,Bangalore,253375,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""banking apps"", ""mutual funds""]"
+C127,Creator 127,YouTube,fintech,913149,233233,10872,3420,0.43,0.46,Pune,182629,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""banking apps"", ""mutual funds""]"
+C128,Creator 128,Instagram,fashion,49303,20995,534,160,0.39,0.32,Bangalore,4930,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""sportswear"", ""health supplements""]"
+C129,Creator 129,YouTube,finance,691088,174930,15102,1798,0.53,0.25,India,138217,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""banking apps"", ""mutual funds""]"
+C130,Creator 130,YouTube,fitness,849804,394629,18825,2993,0.34,0.3,Hyderabad,84980,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""consumer electronics"", ""cloud storage""]"
+C131,Creator 131,Instagram,finance,746309,437656,33842,7296,0.28,0.23,Delhi,149261,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""consumer electronics"", ""cloud storage""]"
+C132,Creator 132,Instagram,technology,1630779,859044,45079,10435,0.47,0.37,Mumbai,244616,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""consumer electronics"", ""cloud storage""]"
+C133,Creator 133,YouTube,gaming,932249,178033,9071,1326,0.3,0.18,Mumbai,93224,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""sportswear"", ""health supplements""]"
+C134,Creator 134,YouTube,food,129307,48004,1924,653,0.69,0.16,India,12930,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""e-commerce"", ""lifestyle accessories""]"
+C135,Creator 135,Instagram,food,1916415,1218628,79976,9490,0.41,0.21,Bangalore,191641,"Shares quick home recipes, restaurant reviews, and street food exploration videos.","[""crypto trading"", ""offshore betting""]"
+C136,Creator 136,Instagram,gaming,1365026,346082,12923,3419,0.39,0.36,Hyderabad,136502,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""sportswear"", ""health supplements""]"
+C137,Creator 137,YouTube,beauty,1634170,576895,35682,9349,0.51,0.17,Bangalore,163417,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""crypto tokens"", ""payday loans""]"
+C138,Creator 138,YouTube,beauty,1795863,976838,81511,17308,0.33,0.42,Pune,179586,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""unregulated loans"", ""binary options""]"
+C139,Creator 139,YouTube,beauty,1257891,723665,18764,8727,0.5,0.25,Mumbai,125789,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""crypto trading"", ""offshore betting""]"
+C140,Creator 140,YouTube,fashion,770422,258337,22367,2105,0.57,0.19,India,77042,"Showcases daily outfit inspiration, seasonal wardrobe hauls, and sustainable fashion tips.","[""edtech"", ""productivity tools""]"
+C141,Creator 141,YouTube,finance,1074702,658281,51647,11787,0.17,0.34,India,214940,"Creates detailed tutorials on personal investment, mutual funds, taxation tips, and wealth management strategies.","[""edtech"", ""productivity tools""]"
+C142,Creator 142,YouTube,education,350257,90544,6202,1199,0.65,0.26,Mumbai,35025,"Explains complex academic topics, exam preparation strategies, and career development advice.","[""unregulated loans"", ""binary options""]"
+C143,Creator 143,YouTube,fitness,607537,365393,27355,2269,0.28,0.65,Hyderabad,60753,"Shares workout routines, nutrition advice, meal prep ideas, and athletic conditioning tips.","[""edtech"", ""productivity tools""]"
+C144,Creator 144,YouTube,gaming,1623629,518040,24208,5954,0.68,0.25,Bangalore,162362,"Streams live gameplay, esports commentary, and gaming setup hardware reviews.","[""edtech"", ""productivity tools""]"
+C145,Creator 145,Instagram,beauty,1017871,686523,40379,2640,0.62,0.3,Pune,101787,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""edtech"", ""productivity tools""]"
+C146,Creator 146,YouTube,beauty,319012,206920,5466,3805,0.6,0.33,Hyderabad,31901,"Features skincare product reviews, makeup tutorials, and cosmetic brand unboxing.","[""e-commerce"", ""lifestyle accessories""]"
+C147,Creator 147,YouTube,fintech,794254,231498,20746,2025,0.17,0.66,Hyderabad,158850,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""sportswear"", ""health supplements""]"
+C148,Creator 148,Instagram,technology,611629,428408,22736,7265,0.57,0.26,India,91744,"Reviews consumer electronics, smartphones, software tools, and emerging AI technologies.","[""banking apps"", ""mutual funds""]"
+C149,Creator 149,YouTube,fintech,1761044,422142,36226,5470,0.38,0.48,Mumbai,352208,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""banking apps"", ""mutual funds""]"
+C150,Creator 150,Instagram,fintech,1349978,845544,43966,3378,0.65,0.24,Bangalore,269995,"Produces short-form videos explaining digital payment apps, personal budgeting tools, and stock trading platforms.","[""gambling"", ""fantasy sports""]"

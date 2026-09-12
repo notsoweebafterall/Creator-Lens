@@ -7,6 +7,9 @@ class Settings(BaseSettings):
     gemini_api_key: str
     gemini_model: str
 
+    groq_api_key: str | None = None
+    groq_model: str = "llama-3.3-70b-versatile"
+
     db_path: str = "./data/creators.db"
     vector_store_path: str = "./data/vector_store"
     guidelines_dir: str = "./data/guidelines"

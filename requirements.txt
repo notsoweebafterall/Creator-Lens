@@ -6,6 +6,7 @@ numpy>=1.26
 
 # LLM
 google-genai
+openai
 
 # Vector store
 chromadb>=0.5

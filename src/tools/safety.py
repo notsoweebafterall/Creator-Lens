@@ -1,32 +1,21 @@
-from google import genai
-from google.genai import errors
-import os
-from openai import OpenAI
-
-from dotenv import load_dotenv
+from google.genai import types
 
 from src.config import settings
-from src.models import Creator
+from src.llm import call_llm_with_fallback, gemini_client, groq_client, GROQ_MODEL
+from src.models import Creator, SafetyVerdict
 from src.rag.retrieve import retrieve_guidelines
 
-load_dotenv()
 
-
-client = genai.Client(api_key=settings.gemini_api_key)
-groq_client = OpenAI(
-    api_key=os.getenv("GROQ_API_KEY"),
-    base_url="https://api.groq.com/openai/v1",
-)
-
-
-def check_brand_safety(creator: Creator) -> str:
+def check_brand_safety(creator: Creator) -> SafetyVerdict:
+    brand_cats_str = ", ".join(creator.previous_brand_categories)
     query = (
-        f"Brand safety assessment for a {creator.niche} creator "
-        f"on {creator.platform}. "
-        f"Known status: {creator.brand_safety_status}"
+        f"Brand safety assessment for {creator.niche} creator. "
+        f"Content summary: {creator.content_summary}. "
+        f"Past sponsored categories: {brand_cats_str}."
     )
 
     guidelines = retrieve_guidelines(query, top_k=3)
+    retrieved_chunks = [item["document"] for item in guidelines if item.get("document")]
 
     guideline_text = "\n\n".join(
         f"Source: {item['source']}\n{item['document']}"
@@ -34,47 +23,64 @@ def check_brand_safety(creator: Creator) -> str:
     )
 
     prompt = f"""
-Assess this creator for brand safety using ONLY the supplied
-creator information and retrieved guidelines.
+Assess this creator for brand safety using ONLY the supplied creator information and retrieved guidelines.
 
-Creator:
-{creator.model_dump_json(indent=2)}
+Creator ID: {creator.creator_id}
+Niche: {creator.niche}
+Content Summary: {creator.content_summary}
+Previous Brand Categories: {brand_cats_str}
 
 Retrieved guidelines:
 {guideline_text}
 
-Return a concise judgment:
-SAFE, REVIEW, or UNSAFE
-
-Then give one short reason.
+Provide a structured verdict:
+- creator_id: {creator.creator_id}
+- risk_level: "low", "medium", or "high"
+- reasoning: brief evidence-based explanation
+- grounded_in: exact relevant quote(s) or excerpt(s) from the retrieved guidelines
 """
 
-    try:
-        response = client.models.generate_content(
+    config = types.GenerateContentConfig(
+        response_mime_type="application/json",
+        response_schema=SafetyVerdict,
+    )
+
+    def _groq_safety():
+        if not groq_client:
+            raise RuntimeError("Groq client not initialized")
+        system_msg = (
+            "You are a brand safety evaluation agent. Output JSON with keys: "
+            "creator_id (string), risk_level ('low', 'medium', or 'high'), reasoning (string), grounded_in (list of strings)."
+        )
+        res = groq_client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": prompt},
+            ],
+            response_format={"type": "json_object"},
+        )
+        class DummyTextResponse:
+            def __init__(self, text):
+                self.text = text
+        return DummyTextResponse(res.choices[0].message.content)
+
+    response, model_used = call_llm_with_fallback(
+        lambda: gemini_client.models.generate_content(
             model=settings.gemini_model,
             contents=prompt,
-        )
+            config=config,
+        ),
+        groq_fn=_groq_safety,
+        purpose="safety",
+        model=settings.gemini_model,
+    )
 
-        print("RAW SAFETY RESPONSE:", repr(response.text))
+    verdict = SafetyVerdict.model_validate_json(response.text)
+    
+    # Ensure grounded_in contains retrieved chunk texts if model returned empty
+    if not verdict.grounded_in:
+        verdict.grounded_in = retrieved_chunks
 
-        return response.text.strip()
-
-    except (errors.ServerError, errors.ClientError) as exc:
-        print(f"[Safety] Gemini failed: {exc}")
-        print("[Safety] Falling back to Groq...")
-
-        groq_response = groq_client.chat.completions.create(
-            model=os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"),
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt,
-                }
-            ],
-        )
-
-        result = groq_response.choices[0].message.content.strip()
-
-        print("RAW SAFETY RESPONSE (Groq):", repr(result))
-
-        return result
+    verdict.model_used = model_used
+    return verdict
